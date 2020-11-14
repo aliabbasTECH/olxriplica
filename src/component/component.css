@@ -1,0 +1,61 @@
+@import "react-slideshow-image/dist/styles.css";
+
+
+.each-fade {
+    display: flex;
+    width: 100%;
+  }
+  
+  .each-fade > div {
+    width: 75%;
+  }
+  
+  .each-fade > div img {
+    
+    object-fit: cover;
+  }
+  
+  .each-fade p {
+    width: 25%;
+    font-size: 1em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+  }
+
+  .slide-container{
+     text-align: center;
+     width: 600px;
+     height: 500px;
+     margin: 0px 50px 0px 50px;
+  }
+.slide-container img {
+    
+    width: 600px;
+    height: 500px;
+}
+
+
+/* filter component css */
+.Catagory{
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+.li{
+  padding: 10px;
+}
+.inerdiv{
+  width: 306px;
+}
+.catagoryInput1{
+    width: 50px;
+}
+.catagoryInput .checkbox {
+     width: 20px;
+     height: 20px;
+}
+
+/* dropdown.css */

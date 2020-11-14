@@ -1,0 +1,60 @@
+
+  
+        <h4 className="Catagory siz18">CATEGORIES</h4>
+            <Lnk to="/">All categories</Link>
+            <Lnk to="/">Mobiles</Link>
+            <Lnk to="/">Tablests</Link>
+            <Lnk to="/">Accessories</Link>
+              
+        <h4 className="Catagory siz18">locations</h4>
+            <Lnk to="/">Pakistan</Link>
+            <Lnk to="/">Sindh</Link>
+            <Lnk to="/">Panjab</Link>
+            <Lnk to="/">Khyber Paktunkhwa</Link>
+            <Lnk to="/">islamabad Capital Territory</Link>
+            <Lnk to="/">Blochistan</Link>
+         
+        <h4 className="Catagory siz18">Make</h4>
+         
+          
+            <Lnk to="/">Samsung</Link>
+            <Lnk to="/">Apple</Link>
+            <Lnk to="/">Huawei</Link>
+            <Lnk to="/">Oppo</Link>
+            <Lnk to="/">vIVO</Link>
+         
+       
+          
+            <h4 className="Catagory siz18">PRICE</h4>
+            <input className="dropdown-item" type="text" id="min" placeholder="min" />
+            <input className="dropdown-item" type="text" id="max" placeholder="max" />
+
+            <h4 className="Catagory siz18">PRICE</h4>
+            <input className="dropdown-item" type="chekbox" id="Used" placeholder />used <br />
+            <input className="dropdown-item" type="chexbox" id="New" placeholder />New
+         
+       
+
+
+
+
+render component  in funcion:
+
+
+if (this.state.show) {
+      myheader = <Child />;
+    };
+
+
+<button onClick={shoot}>Take the shot!</button>
+
+
+bind component
+ constructor(props) {
+    super(props)
+    this.shoot = this.shoot.bind(this)
+  }
+
+
+
+  <button onClick={() => this.shoot("Goal")}>Take the shot!</button>
